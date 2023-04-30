@@ -10,9 +10,9 @@
 </head>
 <body>
     <section class="hero">
-      
+      <img class=logo src="./assets/desktop/logo.svg" alt="pod logo">
       <article class="hero-text">
-        <img class=logo src="./assets/desktop/logo.svg" alt="pod logo">
+        
         <h1>Publish your podcasts</h1>
         <h1 class="white">everywhere.</h1>
 
@@ -20,10 +20,10 @@
         Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
 
         <form>
-          <label for="email" hidden="true">Email Address</label><input type="email" name="email" placeholder="Email address"/>
+          <label for="email" hidden="true">Email Address</label><input type="email" name="email" id="email" placeholder="Email address" required/>
           <input type="submit" id="submit-button" value="Request access"class="btn"></input>
         </form>
-        <p hidden="true" class="error">Oops! Please check your email</p>
+        <p hidden="true" class="error" id="error">Oops! Please check your email</p>
         <ul class="social-icons">
           <li>
             <img src="./assets/desktop/spotify.svg" class="social-icon" alt="spotify logo">

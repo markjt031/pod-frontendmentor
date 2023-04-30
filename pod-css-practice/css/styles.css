@@ -33,7 +33,7 @@ h1{
 }
 p{
     color: var(--light-steel);
-    width: 55%;
+    width: 61%;
     font-size: 1.3rem;
     margin: 4% 4% 4% 0%;
 }
@@ -44,7 +44,7 @@ form{
 input[type=email]{
     background: var(--dark-steel);
     border-radius: 28px;
-    padding-right: 60%;
+    padding-right: 40%;
     padding-left: 7.5%;
     height: 4rem;
     width: 100%;
@@ -79,31 +79,41 @@ input[type=submit]{
     right: 0;
     box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.2);
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #2C344B inset !important;
+    -webkit-text-fill-color: var(--white);
+}
 .btn:hover{
     background: #B3FFE2;
 
 }
 .hero{
-    margin: 10% 0 10% 7%;
+    margin: 20% 0 10% 7%;
     width: 80%;
+    height: 80%;
     position: absolute;
     bottom: 15%;
-    height: 100%;
+    right:0%;
 }
 .hero-text{
     position: absolute;
     bottom: 0%;
     z-index: 2;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-right: 5%;
-    width: 60%;
+    max-height: 509px;
+    width: 56%;
     background: var(--dark);
 }
 .hero-img{
     position: absolute;
     bottom: 0%;
     right: 0%;
-    max-width: 70%;
+    width: 70%;
+    max-height: 640px;
     z-index: 1;
 }
 .white{
@@ -112,30 +122,32 @@ input[type=submit]{
 .social-icons{
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
-    width: 70%;
-    justify-content: space-between;
+    margin-top: 13%;
+    width: 75%;
+    justify-content: space-evenly;
 }
 .social-icons li {
-    width: 40%;
+    margin-right: 2rem;
 }
 .social-icons li img{
-    width: 90%;
+    width: 100%;
     opacity: 0.5;
-    padding: .5rem;
+    
 }
 .dots{
     z-index: 3;
     position: absolute;
+    width: 18%;
     bottom: 0%;
     right: 0%;
     transform: translateY(40%);
 }
 .logo{
-    position: relative;
-    top: 0%;
+    position: absolute;
+    top: 25%;
     left: 0%;
-    width: 10%;
-    z-index: 4;
-    transform: translateY(-300%);
+    width: 11%;
+    z-index: 2;
+    /* transform: translateY(-300%); */
 }
+
