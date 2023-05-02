@@ -221,14 +221,14 @@ input:-webkit-autofill:active{
         
     }
     h1:first-child{
-        margin-top: 49%;
+        margin-top: 30%;
     }
     p{
         font-size: 1.1.2rem;
         line-height: 2rem;
         padding: 0 0%;
         position: absolute;
-        bottom: 40%;
+        bottom: 50%;
         /* margin: 0 20%; */
         
     }
@@ -256,7 +256,7 @@ input:-webkit-autofill:active{
     form{
         width: 90%;
         position: absolute;
-        bottom: 5%;
+        bottom: 15%;
         margin: 0 auto;
         
     }
@@ -286,8 +286,8 @@ input:-webkit-autofill:active{
     .logo{
         
         position: absolute;
-        top: 25%;
-        left: 20%;
+        top: 15%;
+        left: 25%;
         width: 33%;
         max-width: 134.85px;
     }
@@ -298,7 +298,7 @@ input:-webkit-autofill:active{
         width: 100%;
         padding: 5% 0%;
         position: absolute;
-        bottom: 25%;
+        bottom: 35%;
         margin: 0 auto;
     }
 }
