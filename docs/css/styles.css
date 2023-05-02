@@ -215,7 +215,7 @@ input:-webkit-autofill:active{
     }
     h1{
         font-size: 2rem;
-        margin: 0 20%;
+        /* margin: 0 20%; */
         
     }
     h1:first-child{
@@ -227,7 +227,7 @@ input:-webkit-autofill:active{
         padding: 0 0%;
         position: absolute;
         bottom: 55%;
-        margin: 0 20%;
+        /* margin: 0 20%; */
         
     }
     body{
@@ -252,7 +252,7 @@ input:-webkit-autofill:active{
         width: 100%;
         position: absolute;
         bottom: 17%;
-        margin: 0 17%;
+        margin: 0 auto;
         
     }
     input[type=email]{
@@ -280,9 +280,9 @@ input:-webkit-autofill:active{
         padding: 0;
     }
     .logo{
-        margin: 0 33%;
+        margin: 0 20%;
         display: block;
-        position: absolute;
+        position: relative;
         top: 10%;
         width: 33%;
     }
@@ -294,6 +294,6 @@ input:-webkit-autofill:active{
         padding: 5% 0%;
         position: absolute;
         bottom: 42%;
-        margin: 0 20%
+        margin: 0 auto;
     }
 }
