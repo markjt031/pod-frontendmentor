@@ -284,11 +284,12 @@ input:-webkit-autofill:active{
         padding: 0;
     }
     .logo{
-        margin: 10% 25%;
-        display: block;
-        position: relative;
+        
+        position: absolute;
         top: 10%;
+        left: 20%;
         width: 33%;
+        max-width: 134.85px;
     }
     .dots{
         display: none;
