@@ -208,7 +208,7 @@ input:-webkit-autofill:active{
     }
 }
 
-@media screen and (min-width: 350px) and (max-width: 728px){
+@media screen and (min-width: 350px) and (max-width: 768px){
     p, h1{
         width: 90%;
         text-align: center;
