@@ -213,6 +213,7 @@ input:-webkit-autofill:active{
         width: 90%;
         text-align: center;
         margin: 0 0;
+
     }
     h1{
         font-size: 2rem;
@@ -220,7 +221,7 @@ input:-webkit-autofill:active{
         
     }
     h1:first-child{
-        margin-top: 25%;
+        margin-top: 30%;
     }
     p{
         font-size: 1.1.2rem;
@@ -236,6 +237,7 @@ input:-webkit-autofill:active{
         background-size: cover;
         background-blend-mode:overlay;
         background-color: var(--dark);
+        
         
         
     }
@@ -282,7 +284,7 @@ input:-webkit-autofill:active{
         padding: 0;
     }
     .logo{
-        margin: 0 25%;
+        margin: 10% 25%;
         display: block;
         position: relative;
         top: 10%;
