@@ -22,6 +22,7 @@ html, body{
 body{
     width: 100%;
     max-width: 1275px;
+    height: 100vw;
     font-family: var(--font);
     font-weight: 400;
     background: var(--dark);
@@ -39,7 +40,7 @@ p{
 }
 form{
     position: relative;
-    width: 70%;
+    width: 61%;
 }
 input[type=email]{
     background: var(--dark-steel);
@@ -92,16 +93,17 @@ input:-webkit-autofill:active{
 }
 .hero{
     /* margin: 20% 0 10% 7%; */
-    width: 80%;
-    height: 80%;
+    max-width: 723px;
     position: relative;
-    bottom: 15%;
+    min-width: 80%;
+    bottom: 0%;
     right:0%;
     background-image: url('../assets/desktop/image-host.jpg');
+    min-height: 60%;
     max-height: 640px;
     margin: 10% 0% 10% 20%;
     background-repeat: no-repeat;
-    background-size: 70% 70%;
+    background-size: 70% auto;
     background-position: right bottom;
 }
 .hero-text{
@@ -110,10 +112,11 @@ input:-webkit-autofill:active{
     z-index: 2;
     padding-top: 5%;
     padding-right: 5%;
-    max-height: 509px;
-    width: 56%;
+    /* max-height: 509px; */
+    max-width: 56%;
+    max-height: 80%;
     background: var(--dark);
-    margin-top: 5%;
+    /* margin-top: 5%; */
     
 }
 /* .hero-img{
@@ -155,88 +158,132 @@ input:-webkit-autofill:active{
     top: 25%;
     left: 0%;
     width: 11%;
-    z-index: 2;
+    z-index: 4;
     /* transform: translateY(-300%); */
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
     h1{
         font-size: 3.5rem;
+    }
+    p{
+        width: 70%;
     }
     .dots{
         bottom: 0%;
         left: 0%;
         transform: translateY(300%);
+        margin-left: 5%;
     }
     .hero{
         background-image: url('../assets/tablet/image-host.jpg');
-        background-size: 60% 80%;
+        background-size: 67% auto;
         margin: 0;
         width: 100%;
+        height: 100%;
+        max-height: 767px;
+        /* transform: translateY(50%); */
+    }
+    .green{
+        margin-top: 10%;
     }
     .hero-text{
-        width: 87%;
+        margin-top: 10%;
+        width: 82%;
+        max-width: 599px;
+        height: 66%;
+        max-height: 473px;
+        margin-left: 5%;
+        padding-right: 0px;
+        
     }
     .logo{
         width: 18%;
+        margin-left: 5%;
+        margin-top: -20%;
+    }
+    .social-icons{
+        position: absolute;
+        bottom: 0%;
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 350px) and (max-width: 728px){
     p, h1{
         width: 90%;
         text-align: center;
+        margin: 0 0;
     }
     h1{
         font-size: 2rem;
+        margin: 0 20%;
+        
+    }
+    h1:first-child{
+        margin-top: 25%;
     }
     p{
         font-size: 1.1.2rem;
         line-height: 2rem;
-        padding: 0 5%;
+        padding: 0 0%;
+        position: absolute;
+        bottom: 55%;
+        margin: 0 20%;
+        
+    }
+    body{
+        background-image: url('../assets/mobile/image-host.jpg');
+        background-size: cover;
+        background-blend-mode:overlay;
+        background-color: var(--dark);
+        
         
     }
     .hero{
+        margin: 0 auto;
         width: 100%;
-        background-color: var(--dark);
-        background-size: cover;
+        height: 100%;
+        min-height: 667px;
+        max-width: 327px;
         background-image: none;
-        
-        
+        padding: 0;
     }
-    .hero::before{
-        background-image: url('../assets/mobile/image-host.jpg');
-        opacity: 0.1;
-        background-size: 100% 100%;
-        position: absolute;
-        filter: brightness(50%);
-        
-    }
+    
     form{
-        width: 80%;
+        width: 100%;
         position: absolute;
-        bottom: 5%;
+        bottom: 17%;
+        margin: 0 17%;
+        
     }
     input[type=email]{
         margin: 0 auto;
         width: 100%;
+       
     }
     input[type=submit]{
         margin-top: 3%;
-        padding: 4.5% 33%;
+        
         position: relative;
+        width: 100%;
 
     }
     .hero-text{
+        
         width: 100%;
+        min-width: 327px;
+        height: 100%;
+        min-height: 398px;
+        display: block;
+        margin: 0 auto;
+        bottom: 0%;
         background-color: transparent;
-        margin-top: 50%;
-        margin-bottom: 10%;
-        position: static;
+        padding: 0;
     }
     .logo{
-        margin: 0 25%;
+        margin: 0 33%;
         display: block;
-        position: relative;
+        position: absolute;
+        top: 10%;
         width: 33%;
     }
     .dots{
@@ -245,6 +292,8 @@ input:-webkit-autofill:active{
     .social-icons{
         width: 100%;
         padding: 5% 0%;
-        margin-top: -0.5%;
+        position: absolute;
+        bottom: 42%;
+        margin: 0 20%
     }
 }
