@@ -32,6 +32,10 @@ h1{
     color: var(--mint);
     font-size: 4rem;
 }
+.error{
+    color: #FB3E3E;
+    padding-left: 4%;
+}
 p{
     color: var(--light-steel);
     width: 61%;
@@ -300,5 +304,10 @@ input:-webkit-autofill:active{
         position: absolute;
         bottom: 35%;
         margin: 0 auto;
+    }
+    .error{
+        position: absolute;
+        bottom: 10%;
+        padding: 0;
     }
 }
