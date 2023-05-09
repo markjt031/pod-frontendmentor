@@ -5,14 +5,10 @@ This is a solution to the [Pod request access landing page challenge on Frontend
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -35,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://github.com/markjt031/pod-frontendmentor)]([https://your-solution-url.com](https://github.com/markjt031/pod-frontendmentor))
-- Live Site URL: [[Add live site URL here](https://markjt031.github.io/pod-frontendmentor/)]([https://your-live-site-url.com](https://markjt031.github.io/pod-frontendmentor/))
+- Solution URL: [(https://github.com/markjt031/pod-frontendmentor)](https://github.com/markjt031/pod-frontendmentor))
+- Live Site URL: [(https://markjt031.github.io/pod-frontendmentor/)](https://markjt031.github.io/pod-frontendmentor/)
 
 ### Built with
 
